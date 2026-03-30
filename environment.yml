@@ -1,0 +1,14 @@
+name: coffee-env
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - notebook
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+      - snakemake
